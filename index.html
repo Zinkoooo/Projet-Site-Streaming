@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Aymeric Lecas">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Page de connexion</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>BIENVENUE SUR <a href="pages/accueil.html"><strong>Amazan Prime Video</strong></a></h1>
+      <img src="img/logo/prime_video_blue.png" alt="logo Amazan Video">
+    </header>
+
+    <main>
+      <h1>CONNECTEZ-VOUS OU ENREGISTREZ-VOUS UN COMPTE</h1>
+      <div class="login_register">
+        <section>
+          <h2>CONNECTEZ VOUS À VOTRE COMPTE</h2>
+          <form class="affichage_formulaire" action="pages/accueil.html" method="post">
+            <div class="">
+              <label>Adresse mail:</label>
+              <input type="email" placeholder="Adresse mail" required>
+            </div>
+            <div class="">
+              <label>Mot de passe:</label>
+              <input type="password" name="Mot de passe" value="" placeholder="Mot de passe" required>
+            </div>
+            <div class="">
+              <button type="submit" name="button">Se connecter</button>
+            </div>
+          </form>
+        </section>
+        <section>
+          <h2>ENREGISTREZ UN NOUVEAU COMPTE</h2>
+          <form class="affichage_formulaire" action="pages/accueil.html" method="post">
+            <div class="">
+              <label>*Nom:</label>
+              <input type="text" name="nom" value="" placeholder="Saisir champ" required>
+            </div>
+            <div class="">
+              <label>*Prénom:</label>
+              <input type="text" name="prenom" value="" placeholder="Saisir champ" required>
+            </div>
+            <div class="">
+              <label>*Adresse mail:</label>
+              <input type="email" placeholder="Adresse mail" required/>
+            </div>
+            <div class="">
+              <label>*Adresse mail confirmation:</label>
+              <input type="email" placeholder="Adresse mail confirmation" required/>
+            </div>
+            <div class="">
+              <label>*Mot de passe:</label>
+              <input type="password" name="Mot de passe" value="" placeholder="Mot de passe" required>
+            </div>
+            <div class="">
+              <label>*Mot de passe confirmation:</label>
+              <input type="password" name="Mot de passe" value="" placeholder="Mot de passe confirmation" required>
+            </div>
+            <div class="">
+              <label>Numéro de téléphone fixe:</label>
+              <input type="tel" name="Numéro téléphone fixe" placeholder="Exemple : +33 0322443355" value="">
+              <!-- source du type"tel" : https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/tel -->
+            </div>
+            <div class="">
+              <label>*Numéro de téléphone portable:</label>
+              <input type="tel" name="Numéro téléphone fixe" placeholder="Exemple : +33 612345678" value="" required>
+              <!-- source du type"tel" : https://developer.mozilla.org/fr/docs/Web/HTML/Element/Input/tel -->
+            </div>
+            <div class="">
+              <label>Sélectionnez votre pays:</label>
+              <select class="" name="pays">
+                <option>Allemagne</option>
+                <option>Australie</option>
+                <option>Belgique</option>
+                <option>Chine</option>
+                <option>Espagne</option>
+                <option>États-Unis</option>
+                <option>Italie</option>
+                <option>Japon</option>
+                <option>France</option>
+                <option>Portugal</option>
+                <option>Royaume-Uni</option>
+                <option>Russie</option>
+              </select>
+            </div>
+            <div class="">
+              <button type="submit" name="button">S'enregistrer</button>
+            </div>
+            * : champs obligatoire à remplir.
+            <!-- l'attribut required est une astuce qui m'a été fournie par mon camarade @Charles Edouard Lenoir
+            et de la source du type de champs "tel" cité précédemment -->
+          </form>
+        </section>
+      </div>
+
+    </main>
+
+    <footer>
+      <h1>SUIVEZ NOUS SUR</h1>
+      <a href="https://www.facebook.com/"><img src="img/reseaux_sociaux/icon_fb.png" alt="FaceBook"></a>
+      <a href="https://plus.google.com/"><img src="img/reseaux_sociaux/icon_google_plus.png" alt="Google Plus"></a>
+      <a href="https://www.instagram.com/"><img src="img/reseaux_sociaux/icon_instagram.png" alt="Instagram"></a>
+      <a href="https://twitter.com/"><img src="img/reseaux_sociaux/icon_twitter.png" alt="Twitter"></a>
+      <a href="https://discordapp.com/"><img src="img/reseaux_sociaux/icon_discord.png" alt="Discord"></a>
+      <p>Copyright © 2020 Amazan Video <a href="#"><img id="retourhautpage" src="img/utilitaires/return.png" alt="Retour en haut de page"></a></p>
+      <p><strong>Tous droits réservés !</strong></p>
+    </footer>
+
+  </body>
+</html>
