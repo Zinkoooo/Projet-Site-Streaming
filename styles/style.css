@@ -1,0 +1,462 @@
+html {
+  background-color: #202020;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  color: black;
+}
+
+header {
+  background-color: #66CDAA;
+  color: white;
+  margin-bottom: 75px;
+}
+
+header h1 {
+  display: inline-block;
+  color: black;
+  margin-left: 10px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #00A1A1;
+}
+
+header img {
+  max-width: 100%
+}
+
+nav {
+  background-color: #66CDAA;
+  display: inline-block;
+}
+
+nav a {
+  margin-left: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+nav input {
+  max-width: 200px;
+  margin-top: 25px;
+  margin-left: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#search_barre {
+ margin-left: 230px;
+}
+
+#search_button {
+  max-width: 100px;
+}
+
+.connexion {
+  color: #FA6F10;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+}
+
+nav h2 {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  margin-left: 50px;
+}
+
+.pagetitle {
+  font-style: italic;
+  font-size: 28px;
+  padding-left: 1em;
+}
+
+.design_article {
+  margin:25px;
+  border: 1.5px solid #66CDAA;
+  background-color: #313131;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2 {
+  color: #DCDCDC;
+  font-size: 33px;
+}
+
+.affichage {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin: 0 auto;
+  padding: 4px;
+
+}
+
+main img {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+
+article img {
+  display: block;
+  margin: 0 auto;
+  max-width: 215px;
+  max-height: 290px;
+}
+
+section h3 {
+  color: #DCDCDC;
+  text-align: center;
+}
+
+.moreinfos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+
+.moreinfosdesign {
+  border: 2px solid #202020;
+  background-color: #96D5C0;
+  padding: 12px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  grid-column: 6;
+  grid-row: 1;
+}
+
+.hg_presentation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+section .img {
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+section h2{
+    margin: 25px auto;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: monospace;
+}
+
+section p {
+    margin: 0 150px;
+    text-align: center;
+    color: #DCDCDC;
+}
+
+dl {
+    margin: 0 auto;
+    max-width: 70%;
+    border: #66CDAA 1px solid;
+    border-radius: 15px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: #DCDCDC;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+dt {
+  margin: 5px;
+}
+
+dd {
+  border-radius: 5px;
+  border-bottom: #66CDAA 1px solid;
+  padding: 3px;
+  text-align: justify;
+}
+
+section form {
+  color: white
+}
+
+video {
+  /* Définition de la taille de la video, centrer au milieu du document */
+  width: 900px;
+  margin: 0 auto;
+  display: block;
+}
+
+.login_register {
+  /*Création d'une grille pour l'espace de connexion et d'enregistrement de compte */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.affichage_formulaire {
+  background-color: #393939;
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 15px auto;
+  width: 700px;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  /* Donner un design aux bordures */
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  /* Laisser unun espace de 40px en dessous du formulaire */
+  padding-bottom: 40px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées et se trouvent à droite */
+  width: 240px;
+  display: inline-block;
+  text-align: right;
+}
+
+input, textarea {
+  /* CSS inspiré du TP06 de Monsieur delahaye
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 400px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+}
+
+.ajout_favoris {
+  display: block;
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.affichage_formulaire div button {
+  float: right;
+}
+
+footer {
+  padding: 1em;
+  margin: 0 auto;
+  margin-top: 75px;
+  background-color: #96D5C0;
+  border-top: solid 3px #ccc;
+}
+
+footer h1 {
+  color: red;
+  text-align: left;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+footer p {
+  color: blue;
+}
+
+footer a img {
+  padding-left: 10px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+footer p a img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+#retourhautpage {
+  float: right;
+  /* source ici : https://www.developpez.net/forums/d147345/webmasters-developpement-web/mise-page-css/css-aligner-image/ */
+}
+
+@media screen and (max-width: 1000px) {
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav input {
+    max-width: 160px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #search_barre {
+   margin-left: 30px;
+   font-size: 14px;
+  }
+
+  #search_button {
+    max-width: 90px;
+    font-size: 14px;
+  }
+
+  .affichage {
+    max-width: 512px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    margin: auto;
+  }
+
+  .moreinfos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .moreinfosdesign {
+    border: 2px solid #202020;
+    background-color: #96D5C0;
+    padding: 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  .hg_presentation {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  video {
+    max-width: 600px;
+  }
+
+  .login_register {
+    max-width: 512px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    margin: auto;
+    }
+
+    .affichage_formulaire {
+      background-color: #393939;
+      margin: 15px auto;
+      width: 500px;
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      padding-bottom: 40px;
+    }
+
+    label {
+      width: 105px;
+      display: inline-block;
+      text-align: right;
+    }
+
+    input, textarea {
+      font: 1em sans-serif;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+
+  nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  nav input {
+    max-width: 125px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  #search_barre {
+   margin-left: 5px;
+   font-size: 12px;
+  }
+
+  #search_button {
+    max-width: 80px;
+    font-size: 12px;
+  }
+
+  .connexion {
+    font-size: 18px;
+  }
+
+  .affichage {
+    max-width: 512px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    margin: auto;
+  }
+
+  video {
+    max-width: 400px;
+  }
+
+  .login_register {
+    max-width: 512px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    margin: auto;
+    }
+
+    .affichage_formulaire {
+      background-color: #393939;
+      margin: 15px auto;
+      width: 300px;
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      padding-bottom: 40px;
+    }
+
+    label {
+      width: 105px;
+      display: inline-block;
+      text-align: right;
+    }
+
+    input, textarea {
+      font: 1em sans-serif;
+      width: 300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+    }
+}
